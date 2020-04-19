@@ -2,4 +2,4 @@
 
 College QT app.
 
-This app was built as a self study into quantitative techniques subject to further understand how Data Analysis.
+This app was built as a self study into quantitative techniques subject to further understand how Data Analysis works.
