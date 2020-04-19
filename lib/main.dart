@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:qt/chapter1/chapter1.dart';
 import 'package:qt/chapter2/chapter2.dart';
+import 'package:qt/chapter3/chapter3.dart';
+import 'package:qt/chapter4/chapter4.dart';
 
 void main() => runApp(MyApp());
 
@@ -90,7 +92,7 @@ class _MyHomePageState extends State<MyHomePage> {
               onTap: () => Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => Chapter1(),
+                  builder: (context) => Chapter3(),
                 ),
               ),
               child: Container(
@@ -108,7 +110,7 @@ class _MyHomePageState extends State<MyHomePage> {
               onTap: () => Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => Chapter1(),
+                  builder: (context) => Chapter4(),
                 ),
               ),
               child: Container(

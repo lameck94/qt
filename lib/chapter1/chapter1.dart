@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:qt/chapter1/getthemost.dart';
-import 'package:qt/chapter1/introductiontoqt.dart';
+import 'package:qt/chapter1/chapter1topics/courselayout.dart';
+import 'package:qt/chapter1/chapter1topics/introductiontoqt.dart';
 
 class Chapter1 extends StatelessWidget {
   @override
@@ -35,7 +35,7 @@ class Chapter1 extends StatelessWidget {
                   onTap: () => Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => GetTheMost(),
+                      builder: (context) => CourseLayout(),
                     ),
                   ),
                 ),

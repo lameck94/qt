@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class GetTheMost extends StatelessWidget {
+class CourseLayout extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('App Learning Structure'),
+        title: const Text('How to Use this App'),
       ),
     );
   }
