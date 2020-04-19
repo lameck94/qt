@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:qt/chapter1.dart';
+import 'package:qt/chapter1/chapter1.dart';
+import 'package:qt/chapter2/chapter2.dart';
 
 void main() => runApp(MyApp());
 
@@ -9,10 +10,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     SystemChrome.setPreferredOrientations(
         [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
-    SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
-        statusBarColor: Colors.pink,
-        systemNavigationBarColor: Colors.pink,
-        systemNavigationBarDividerColor: Colors.pink));
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Quantitative Methods',
@@ -75,7 +72,7 @@ class _MyHomePageState extends State<MyHomePage> {
               onTap: () => Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => Chapter1(),
+                  builder: (context) => Chapter2(),
                 ),
               ),
               child: Container(
